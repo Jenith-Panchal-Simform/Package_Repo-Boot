@@ -1,6 +1,6 @@
 {
     "name": "repo-boot",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Initialize your Folder with default README.md and PR Template",
     "bin": {
         "repo-boot": "./dist/cli.js"
