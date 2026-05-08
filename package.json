@@ -1,0 +1,42 @@
+{
+    "name": "repo-boot",
+    "version": "0.0.7",
+    "description": "Initialize your Folder with default README.md and PR Template",
+    "bin": {
+        "repo-boot": "./dist/cli.js"
+    },
+    "homepage": "https://github.com/YOUR_USERNAME/repo-boot",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YOUR_USERNAME/repo-boot.git"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/cli.ts --format esm --clean && cpy \"templates/**/*\" dist/templates"
+    },
+    "keywords": [
+        "Repo-Boot",
+        "Project-Setup",
+        "Project-Initializer",
+        "cli",
+        "npm",
+        "boilerplate",
+        "github-template"
+    ],
+    "author": "Jenith",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "chalk": "^5.6.2",
+        "fs-extra": "^11.3.5"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^25.6.0",
+        "cpy-cli": "^7.0.0",
+        "tsup": "^8.5.1",
+        "typescript": "^6.0.3"
+    }
+}
