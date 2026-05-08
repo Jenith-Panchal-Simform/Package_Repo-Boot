@@ -5,10 +5,10 @@
     "bin": {
         "repo-boot": "./dist/cli.js"
     },
-    "homepage": "https://github.com/YOUR_USERNAME/repo-boot",
+    "homepage": "https://github.com/Jenith-Panchal-Simform/Package_Repo-Boot",
     "repository": {
         "type": "git",
-        "url": "https://github.com/YOUR_USERNAME/repo-boot.git"
+        "url": "https://github.com/Jenith-Panchal-Simform/Package_Repo-Boot"
     },
     "files": [
         "dist"
